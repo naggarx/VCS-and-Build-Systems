@@ -23,5 +23,6 @@ int getAverage(vector<int> nums)
 int main()
 {
     vector<int> nums {1,2,3,4,5,6,7,8,9,10};
-    cout<<getSum(nums);
+    cout<<getSum(nums)<<endl;
+    cout<<getAverage(nums);
 }
